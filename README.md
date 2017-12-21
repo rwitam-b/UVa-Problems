@@ -1,4 +1,4 @@
-# UVa-Problems
+# AC Solutions to UVa-Problems
 This is a collection of the UVa Online Judge problems that are solved by me. I started solving them as a means to sharpen my skills for competitive programming.
 
 My other objective was to get a grip of C++, mainly for competitive coding purposes, as I was mainly a JAVA guy.
