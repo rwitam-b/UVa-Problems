@@ -1,4 +1,3 @@
-#include<cstdio>
 #include<iostream>
 #include<string>
 
@@ -8,7 +7,7 @@ int main()
 {
 	int T;
 	string result;
-	scanf("%d", &T);
+	cin >> T;
 	getline(cin, result);
 	while (T--) {
 		getline(cin, result);
