@@ -14,7 +14,7 @@ int main()
 		double dep_rates[101];
 		memset(dep_rates, 0, sizeof(dep_rates));
     
-    // Populating the depreciation rates array
+    		// Populating the depreciation rates array
 		for (int a = 0; a < dep; a++) {
 			int month;
 			double rate;
@@ -27,7 +27,7 @@ int main()
 			}
 		}	
     
-    // Simulating the calculation specified in the problem
+    		// Simulating the calculation specified in the problem
 		car = loan+downpayment;
 		car -= (car*dep_rates[0]);
 		for (int a = 0; a <= loan_duration; a++, car -= (car*dep_rates[a]), loan -= emi) {
